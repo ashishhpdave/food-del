@@ -3,6 +3,8 @@ import './LoginPopup.css'
 import { assets } from '../../assets/assets'
 import { StoreContext } from '../../context/StoreContext'
 import axios from "axios"
+
+
 const LoginPopup = ({setShowLogin}) => {
 
   const {url,setToken} = useContext(StoreContext)
@@ -11,7 +13,7 @@ const LoginPopup = ({setShowLogin}) => {
   const [data,setData] = useState({
     name:"",
     email:"",
-    password:"",
+    password:""
   })
 
   const onChangeHandler = (event) =>{
