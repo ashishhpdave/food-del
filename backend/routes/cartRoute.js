@@ -8,4 +8,4 @@ cartRoueter.post("/add",authMiddleware,addToCart)
 cartRoueter.post("/remove",authMiddleware,removeFromCart)
 cartRoueter.post("/get",authMiddleware,getCart)
 
-export default cartRoueter
+export default cartRoueter;

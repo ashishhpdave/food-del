@@ -46,6 +46,7 @@ const ragisterUser = async (req,res) => {
             return res.json({success:false,message:"Please Enter a valid Email"})
         }
 
+        
         if (password.length<8) {
             return res.json({success:false,message:"Please Enter a strong password"})
         }
