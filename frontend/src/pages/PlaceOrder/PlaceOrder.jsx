@@ -39,6 +39,7 @@ const PlaceOrder = () => {
     })
     let orderData = {
       address :data,
+      
       items:orderItems,
       amount:getTotalCartAmount()+2,
     }
